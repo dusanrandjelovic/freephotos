@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(slika1.jpg);
+  background-size: cover;
+  width: 100%;
+  min-height: 950px;
+  background-position: center;
+  /*top: 0;
+  position: absolute;*/
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+}
+nav p {
+  display: block;
+  font-size: 30px;
+}
+.span {
+  font-size: 30px;
+  color: black;
+}
+.span:hover {
+  color: white;
+}
+nav ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+nav a:hover {
+  color: white;
+}
+.podstrane {
+  display: none;
+  position: absolute;
+  background: -webkit-linear-gradient(green, gray);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(10,10,10,0.6);
+  z-index: 1;
+}
+.podstrane a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.podstrane a:hover {
+  background-color: white;
+  color: green;
+}
+
+.plus:hover .podstrane {
+  display: block;
+}
+
+header h4 {
+  position: absolute;
+  right: 10px;
+  bottom: -140px;
+  color: white;
+}
+
+
+.m1 {
+  background-image: url(slika2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  background-position: center;
+  position: relative;
+}
+.m1 h4 {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+  color: white;
+}
+.m2 {
+  background-image: url(slika3.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  background-position: center;
+  position: relative;
+}
+.m2 h4 {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+  color: white;
+}
+.m3 {
+  background-image: url(slika4.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  background-position: center;
+  position: relative;
+}
+.m3 h4 {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+  color: white;
+}
+.m4 {
+  background-image: url(slika5.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  background-position: center;
+  position: relative;
+}
+.m4 h4 {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+}
+.m5 {
+  background-image: url(slika6.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  background-position: center;
+  position: relative;
+}
+.m5 h4 {
+  position: absolute;
+  right: 10px;
+  bottom: 22px;
+}
+
+footer {
+  background: -webkit-linear-gradient(green, gray);
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+@media (min-width: 600px) {
+  nav {
+    flex-direction: row;
+  }
+  nav .levo {
+    width: 130%;
+  }
+  nav ul {
+    width: 50%;
+  }
+}

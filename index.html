@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Free photos</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#preko").hover(function(){
+        $(this).css("color", "green");
+    });
+    $("#preko").mouseleave(function(){
+          $(this).css("color", "black");
+      });
+});
+</script>
+</head>
+<body>
+<header id="ph1">
+  <nav>
+    <div class="levo">
+  <p><a href="https://codepen.io/dusanrandjelovic/full/mpMXjB/" class="span">Dusan Randjelovic</a></p>
+   <br>
+   <p id="preko">Free Photos from <a href="unsplash.com" class="span">Unsplash.com</a></p>
+ </div>
+   <ul>
+   <li class="plus"><a href="">Photos</a>
+    <div class="podstrane">
+      <a href="#ph1">Photo 1</a>
+      <a href="#ph2">Photo 2</a>
+      <a href="#ph3">Photo 3</a>
+      <a href="#ph4">Photo 4</a>
+      <a href="#ph5">Photo 5</a>
+      <a href="#ph6">Photo 6</a>
+    </div>
+   </li>
+ </ul>
+  </nav>
+  <h4>Photo 1</h4>
+</header>
+<main class="m1" id="ph2">
+
+  <h4>Photo 2</h4>
+</main>
+
+<main class="m2" id="ph3">
+<h4>Photo 3</h4>
+</main>
+
+<main class="m3" id="ph4">
+<h4>Photo 4</h4>
+</main>
+
+<main class="m4" id="ph5">
+<h4>Photo 5</h4>
+</main>
+
+<main class="m5" id="ph6">
+<h4>Photo 6</h4>
+</main>
+
+<a href="#ph1" title="Back to top" style="color: white; font-size: 30px; position: fixed; bottom: 0; border: 3px solid white; padding: 5px; margin: 3px;">&uarr;</a>
+
+<footer>
+  <p>&copy; Dusan Randjelovic | dusanrandjelovic92@gmail.com</p>
+</footer>
+</body>
+
+</html>
