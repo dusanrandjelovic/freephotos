@@ -61,6 +61,7 @@ nav a:hover {
 
 .plus:hover .podstrane {
   display: block;
+  opacity: 0.9;
 }
 
 header h4 {
