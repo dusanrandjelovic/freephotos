@@ -80,7 +80,7 @@ header h4 {
   height: 950px;
   background-position: center;
   position: relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 .m1 h4 {
   position: absolute;
@@ -95,7 +95,7 @@ header h4 {
   height: 950px;
   background-position: center;
   position: relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 .m2 h4 {
   position: absolute;
@@ -110,7 +110,7 @@ header h4 {
   height: 950px;
   background-position: center;
   position: relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 .m3 h4 {
   position: absolute;
@@ -125,7 +125,7 @@ header h4 {
   height: 950px;
   background-position: center;
   position: relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 .m4 h4 {
   position: absolute;
@@ -139,7 +139,7 @@ header h4 {
   height: 950px;
   background-position: center;
   position: relative;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 .m5 h4 {
   position: absolute;
